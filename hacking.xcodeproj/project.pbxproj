@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49F475257A5B2BCAA64227A3 /* Pods_hacking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8E50A63F0DECC92CD877A5 /* Pods_hacking.framework */; };
+		6168B4FB2A404501006E29A7 /* FlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 6168B4FA2A404501006E29A7 /* FlowStacks */; };
+		616BB56A2A3CA0F80013807F /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 616BB5692A3CA0F80013807F /* SwiftUINavigation */; };
+		616BB56C2A3CA0F80013807F /* _SwiftUINavigationState in Frameworks */ = {isa = PBXBuildFile; productRef = 616BB56B2A3CA0F80013807F /* _SwiftUINavigationState */; };
 		618199942A33E65800A42924 /* hackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618199932A33E65800A42924 /* hackingApp.swift */; };
 		618199962A33E65800A42924 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618199952A33E65800A42924 /* ContentView.swift */; };
 		618199982A33E65B00A42924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618199972A33E65B00A42924 /* Assets.xcassets */; };
@@ -14,6 +18,14 @@
 		618199A52A33E65C00A42924 /* hackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618199A42A33E65C00A42924 /* hackingTests.swift */; };
 		618199AF2A33E65C00A42924 /* hackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618199AE2A33E65C00A42924 /* hackingUITests.swift */; };
 		618199B12A33E65C00A42924 /* hackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618199B02A33E65C00A42924 /* hackingUITestsLaunchTests.swift */; };
+		61C1221E2A44BB7B008AA02C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1221D2A44BB7B008AA02C /* HomeView.swift */; };
+		61C122202A44BBA7008AA02C /* NumberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1221F2A44BBA7008AA02C /* NumberListView.swift */; };
+		61C122222A44BBD0008AA02C /* NumberDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C122212A44BBD0008AA02C /* NumberDetailView.swift */; };
+		61C122242A44BC1E008AA02C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C122232A44BC1E008AA02C /* HomeViewModel.swift */; };
+		61C122262A44BC36008AA02C /* NumberListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C122252A44BC36008AA02C /* NumberListViewModel.swift */; };
+		61C122282A44BC48008AA02C /* NumberDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C122272A44BC48008AA02C /* NumberDetailViewModel.swift */; };
+		61C1222A2A44BC71008AA02C /* ContactsHelpCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C122292A44BC71008AA02C /* ContactsHelpCoordinator.swift */; };
+		61F94D192A4F0B06008D51FC /* ContactsHelpCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F94D182A4F0B06008D51FC /* ContactsHelpCoordinatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47799DBB9D0F14B38337C080 /* Pods-hacking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hacking.release.xcconfig"; path = "Target Support Files/Pods-hacking/Pods-hacking.release.xcconfig"; sourceTree = "<group>"; };
 		618199902A33E65800A42924 /* hacking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hacking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		618199932A33E65800A42924 /* hackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackingApp.swift; sourceTree = "<group>"; };
 		618199952A33E65800A42924 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,16 @@
 		618199AA2A33E65C00A42924 /* hackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		618199AE2A33E65C00A42924 /* hackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackingUITests.swift; sourceTree = "<group>"; };
 		618199B02A33E65C00A42924 /* hackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61C1221D2A44BB7B008AA02C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		61C1221F2A44BBA7008AA02C /* NumberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberListView.swift; sourceTree = "<group>"; };
+		61C122212A44BBD0008AA02C /* NumberDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberDetailView.swift; sourceTree = "<group>"; };
+		61C122232A44BC1E008AA02C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		61C122252A44BC36008AA02C /* NumberListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberListViewModel.swift; sourceTree = "<group>"; };
+		61C122272A44BC48008AA02C /* NumberDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberDetailViewModel.swift; sourceTree = "<group>"; };
+		61C122292A44BC71008AA02C /* ContactsHelpCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsHelpCoordinator.swift; sourceTree = "<group>"; };
+		61F94D182A4F0B06008D51FC /* ContactsHelpCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsHelpCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		9E8E50A63F0DECC92CD877A5 /* Pods_hacking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hacking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F8211393083FB5EFA86FBD /* Pods-hacking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hacking.debug.xcconfig"; path = "Target Support Files/Pods-hacking/Pods-hacking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616BB56A2A3CA0F80013807F /* SwiftUINavigation in Frameworks */,
+				616BB56C2A3CA0F80013807F /* _SwiftUINavigationState in Frameworks */,
+				49F475257A5B2BCAA64227A3 /* Pods_hacking.framework in Frameworks */,
+				6168B4FB2A404501006E29A7 /* FlowStacks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,8 @@
 				618199A32A33E65C00A42924 /* hackingTests */,
 				618199AD2A33E65C00A42924 /* hackingUITests */,
 				618199912A33E65800A42924 /* Products */,
+				BF4E70AB51F81634CD86EE63 /* Pods */,
+				79A8C77E0A26CBB28171309F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +125,14 @@
 			children = (
 				618199932A33E65800A42924 /* hackingApp.swift */,
 				618199952A33E65800A42924 /* ContentView.swift */,
+				61C1221D2A44BB7B008AA02C /* HomeView.swift */,
+				61C122232A44BC1E008AA02C /* HomeViewModel.swift */,
+				61C1221F2A44BBA7008AA02C /* NumberListView.swift */,
+				61C122252A44BC36008AA02C /* NumberListViewModel.swift */,
+				61C122212A44BBD0008AA02C /* NumberDetailView.swift */,
+				61C122272A44BC48008AA02C /* NumberDetailViewModel.swift */,
+				61C122292A44BC71008AA02C /* ContactsHelpCoordinator.swift */,
+				61F94D182A4F0B06008D51FC /* ContactsHelpCoordinatorViewModel.swift */,
 				618199972A33E65B00A42924 /* Assets.xcassets */,
 				618199992A33E65B00A42924 /* Preview Content */,
 			);
@@ -127,6 +164,23 @@
 			path = hackingUITests;
 			sourceTree = "<group>";
 		};
+		79A8C77E0A26CBB28171309F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E8E50A63F0DECC92CD877A5 /* Pods_hacking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4E70AB51F81634CD86EE63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5F8211393083FB5EFA86FBD /* Pods-hacking.debug.xcconfig */,
+				47799DBB9D0F14B38337C080 /* Pods-hacking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +188,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 618199B42A33E65C00A42924 /* Build configuration list for PBXNativeTarget "hacking" */;
 			buildPhases = (
+				065B88CF23A1991186DD9C2A /* [CP] Check Pods Manifest.lock */,
 				6181998C2A33E65800A42924 /* Sources */,
 				6181998D2A33E65800A42924 /* Frameworks */,
 				6181998E2A33E65800A42924 /* Resources */,
+				93E954F8CC1CF37449C9085A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = hacking;
+			packageProductDependencies = (
+				616BB5692A3CA0F80013807F /* SwiftUINavigation */,
+				616BB56B2A3CA0F80013807F /* _SwiftUINavigationState */,
+				6168B4FA2A404501006E29A7 /* FlowStacks */,
+			);
 			productName = hacking;
 			productReference = 618199902A33E65800A42924 /* hacking.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +276,10 @@
 				Base,
 			);
 			mainGroup = 618199872A33E65800A42924;
+			packageReferences = (
+				616BB5682A3CA0F80013807F /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
+				6168B4F92A404501006E29A7 /* XCRemoteSwiftPackageReference "FlowStacks" */,
+			);
 			productRefGroup = 618199912A33E65800A42924 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,13 +317,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		065B88CF23A1991186DD9C2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hacking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E954F8CC1CF37449C9085A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hacking/Pods-hacking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hacking/Pods-hacking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hacking/Pods-hacking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6181998C2A33E65800A42924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C122222A44BBD0008AA02C /* NumberDetailView.swift in Sources */,
+				61C122242A44BC1E008AA02C /* HomeViewModel.swift in Sources */,
+				61C1221E2A44BB7B008AA02C /* HomeView.swift in Sources */,
+				61C122262A44BC36008AA02C /* NumberListViewModel.swift in Sources */,
 				618199962A33E65800A42924 /* ContentView.swift in Sources */,
 				618199942A33E65800A42924 /* hackingApp.swift in Sources */,
+				61C1222A2A44BC71008AA02C /* ContactsHelpCoordinator.swift in Sources */,
+				61F94D192A4F0B06008D51FC /* ContactsHelpCoordinatorViewModel.swift in Sources */,
+				61C122282A44BC48008AA02C /* NumberDetailViewModel.swift in Sources */,
+				61C122202A44BBA7008AA02C /* NumberListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +526,7 @@
 		};
 		618199B52A33E65C00A42924 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F8211393083FB5EFA86FBD /* Pods-hacking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +540,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,6 +556,7 @@
 		};
 		618199B62A33E65C00A42924 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47799DBB9D0F14B38337C080 /* Pods-hacking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +570,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,6 +696,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6168B4F92A404501006E29A7 /* XCRemoteSwiftPackageReference "FlowStacks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/FlowStacks.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.4;
+			};
+		};
+		616BB5682A3CA0F80013807F /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6168B4FA2A404501006E29A7 /* FlowStacks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6168B4F92A404501006E29A7 /* XCRemoteSwiftPackageReference "FlowStacks" */;
+			productName = FlowStacks;
+		};
+		616BB5692A3CA0F80013807F /* SwiftUINavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 616BB5682A3CA0F80013807F /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigation;
+		};
+		616BB56B2A3CA0F80013807F /* _SwiftUINavigationState */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 616BB5682A3CA0F80013807F /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = _SwiftUINavigationState;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 618199882A33E65800A42924 /* Project object */;
 }

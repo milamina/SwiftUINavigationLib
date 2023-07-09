@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Observable (2.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - Observable (= 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Observable
+
+SPEC CHECKSUMS:
+  AFNetworking: 9d57de7506959955d82fb5274ee4bec86b930e52
+  Observable: d5369c555eae9d022cb066867786f6b9470de33c
+
+PODFILE CHECKSUM: 9a40d9a0d9dccaae360c625ab669e94ea3c30ec0
+
+COCOAPODS: 1.11.3
